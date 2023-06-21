@@ -417,12 +417,6 @@ public class Utils {
         return new File(Constants.UPDATE_RECOVERY_EXEC).exists();
     }
 
-    public static String getDisplayVersion(String version) {
-        float floatVersion = Float.parseFloat(version);
-        // Lineage 20 and up should only be integer values (we don't have minor versions anymore)
-        return (floatVersion >= 20) ? String.valueOf((int)floatVersion) : version;
-    }
-
     public static String getMaintainer() {
         return mMaintainer;
     }
