@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.voidui.updater;
+package org.voidui.updater;
 
 import android.app.AlarmManager;
 import android.app.NotificationChannel;
@@ -30,9 +30,9 @@ import androidx.core.app.NotificationCompat;
 import androidx.preference.PreferenceManager;
 
 import org.json.JSONException;
-import com.voidui.updater.download.DownloadClient;
-import com.voidui.updater.misc.Constants;
-import com.voidui.updater.misc.Utils;
+import org.voidui.updater.download.DownloadClient;
+import org.voidui.updater.misc.Constants;
+import org.voidui.updater.misc.Utils;
 
 import java.io.File;
 import java.io.IOException;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.voidui.updater;
+package org.voidui.updater;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -53,14 +53,14 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.snackbar.Snackbar;
 
-import com.voidui.updater.controller.UpdaterController;
-import com.voidui.updater.controller.UpdaterService;
-import com.voidui.updater.misc.BuildInfoUtils;
-import com.voidui.updater.misc.Constants;
-import com.voidui.updater.misc.StringGenerator;
-import com.voidui.updater.misc.Utils;
-import com.voidui.updater.model.UpdateInfo;
-import com.voidui.updater.model.UpdateStatus;
+import org.voidui.updater.controller.UpdaterController;
+import org.voidui.updater.controller.UpdaterService;
+import org.voidui.updater.misc.BuildInfoUtils;
+import org.voidui.updater.misc.Constants;
+import org.voidui.updater.misc.StringGenerator;
+import org.voidui.updater.misc.Utils;
+import org.voidui.updater.model.UpdateInfo;
+import org.voidui.updater.model.UpdateStatus;
 
 import java.io.IOException;
 import java.text.DateFormat;

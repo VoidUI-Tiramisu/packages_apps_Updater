@@ -1,1 +1,1 @@
--keep class com.voidui.updater.ui.FlingBehavior { *; }
+-keep class org.voidui.updater.ui.FlingBehavior { *; }

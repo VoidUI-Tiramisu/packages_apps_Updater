@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.voidui.updater;
+package org.voidui.updater;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -24,13 +24,13 @@ import android.os.ParcelFileDescriptor;
 import android.util.Log;
 
 import org.json.JSONException;
-import com.voidui.updater.controller.UpdaterController;
-import com.voidui.updater.controller.UpdaterService;
-import com.voidui.updater.misc.StringGenerator;
-import com.voidui.updater.misc.Utils;
-import com.voidui.updater.model.Update;
-import com.voidui.updater.model.UpdateInfo;
-import com.voidui.updater.model.UpdateStatus;
+import org.voidui.updater.controller.UpdaterController;
+import org.voidui.updater.controller.UpdaterService;
+import org.voidui.updater.misc.StringGenerator;
+import org.voidui.updater.misc.Utils;
+import org.voidui.updater.model.Update;
+import org.voidui.updater.model.UpdateInfo;
+import org.voidui.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.FileInputStream;

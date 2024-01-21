@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.voidui.updater.misc;
+package org.voidui.updater.misc;
 
 import android.app.AlarmManager;
 import android.content.ClipData;
@@ -35,12 +35,12 @@ import androidx.preference.PreferenceManager;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import com.voidui.updater.R;
-import com.voidui.updater.UpdatesDbHelper;
-import com.voidui.updater.controller.UpdaterService;
-import com.voidui.updater.model.Update;
-import com.voidui.updater.model.UpdateBaseInfo;
-import com.voidui.updater.model.UpdateInfo;
+import org.voidui.updater.R;
+import org.voidui.updater.UpdatesDbHelper;
+import org.voidui.updater.controller.UpdaterService;
+import org.voidui.updater.model.Update;
+import org.voidui.updater.model.UpdateBaseInfo;
+import org.voidui.updater.model.UpdateInfo;
 
 import java.io.BufferedReader;
 import java.io.File;

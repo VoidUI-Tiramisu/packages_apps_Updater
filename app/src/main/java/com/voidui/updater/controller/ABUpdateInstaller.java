@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.voidui.updater.controller;
+package org.voidui.updater.controller;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -24,10 +24,10 @@ import android.util.Log;
 
 import androidx.preference.PreferenceManager;
 
-import com.voidui.updater.misc.Constants;
-import com.voidui.updater.misc.Utils;
-import com.voidui.updater.model.Update;
-import com.voidui.updater.model.UpdateStatus;
+import org.voidui.updater.misc.Constants;
+import org.voidui.updater.misc.Utils;
+import org.voidui.updater.model.Update;
+import org.voidui.updater.model.UpdateStatus;
 
 import java.io.BufferedReader;
 import java.io.File;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.voidui.updater.controller;
+package org.voidui.updater.controller;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -25,12 +25,12 @@ import android.util.Log;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import com.voidui.updater.UpdatesDbHelper;
-import com.voidui.updater.download.DownloadClient;
-import com.voidui.updater.misc.Utils;
-import com.voidui.updater.model.Update;
-import com.voidui.updater.model.UpdateInfo;
-import com.voidui.updater.model.UpdateStatus;
+import org.voidui.updater.UpdatesDbHelper;
+import org.voidui.updater.download.DownloadClient;
+import org.voidui.updater.misc.Utils;
+import org.voidui.updater.model.Update;
+import org.voidui.updater.model.UpdateInfo;
+import org.voidui.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;

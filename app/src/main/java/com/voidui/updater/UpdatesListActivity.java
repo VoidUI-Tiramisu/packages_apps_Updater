@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.voidui.updater;
+package org.voidui.updater;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.voidui.updater.model.UpdateInfo;
+import org.voidui.updater.model.UpdateInfo;
 
 public abstract class UpdatesListActivity extends AppCompatActivity {
     public abstract void exportUpdate(UpdateInfo update);
